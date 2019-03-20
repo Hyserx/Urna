@@ -9,7 +9,7 @@ int main (void){
 	char cont;
 	
 	
-	do{
+	
 	
 	
 	
@@ -28,38 +28,42 @@ int main (void){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n1 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n1 ++;}
+			}
 	if (n==2){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n2 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n2 ++;}
+			}
 	if (n==3){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n3 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n3 ++;}
+			}
 	if (n==4){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n4 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n4 ++;}
+			}
 	if (n==5){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
@@ -68,81 +72,89 @@ int main (void){
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n5 ++;}
+			}
 	if (n==6){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n6 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n6 ++;}
+			}
 	if (n==7){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n7 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n7 ++;}
+			}
 	if (n==8){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n8 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n8 ++;}
+			}
 	if (n==9){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n9 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n9 ++;}
+			}
 	if (n==10){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n10 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n10 ++;}
+			}
 	if (n==11){
 		printf ("Deseja confirmar? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n11 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n11 ++;}
+			}
 	if (n==0){
 		printf ("Deseja confirmar voto em branco? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			n0 ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			n0 ++;}
+			}
 	if (n!=1 && n!=2 && n!=3 && n!=4 && n!=5 && n!=6 && n!=7  &&  n!=8 && n!=9 && n!=10 && n!=11 && n!=00 && n!=99){
 		printf ("Deseja confirmar voto nulo? s/n \n");
 		scanf (" %c", &cont);
 		if (cont == 's'){
-			printf ("Voto confirmado \n");}
+			printf ("Voto confirmado \n");
+			nn ++;}
 			if (cont != 's'){
 				printf ("Tente novamente digitando o numero do candidato e confirmando. \n");
 			}
-			nn ++;}
+			}
 	
-}	}while ((cont=!'s'));
+}	
 	
 
 
